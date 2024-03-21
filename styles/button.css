@@ -1,43 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-.card img {
-  transition: transform 0.2s;
-}
-
-.card:hover img {
-  transform: scale(1.05);
-}
-
 
 /* CSS */
 .button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
