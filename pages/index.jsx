@@ -266,7 +266,7 @@ export default function Home() {
                 <a
                   href="mailto: Dipo.ui.58@gmail.com"
                   target="_blank"
-                  className="bg-secondary  text-black items-center button-6 px-[31px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
+                  className="bg-secondary  text-black items-center button-6 px-[24px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
                 >
                   <span>
                     <img
@@ -284,7 +284,7 @@ export default function Home() {
                 <a
                   href="https://wa.me/01865484147"
                   target="_blank"
-                  className="bg-black text-white  button-6 px-[31px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
+                  className="bg-black text-white  button-6 px-[24px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
                   type="button"
                 >
                   Book a call
