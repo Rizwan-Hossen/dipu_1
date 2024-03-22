@@ -52,6 +52,33 @@ export default function Home() {
 
   return (
     <>
+
+{/* meta data */}
+<head>
+<title>Ui & UX Designer</title>
+<meta name="title" content="Ui & UX Designer" />
+<meta name="description" content="Ui & Ux Desiginer" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://metatags.io/" />
+<meta property="og:title" content="Ui & UX Designer" />
+<meta property="og:description" content="Ui & Ux Desiginer" />
+<meta property="og:image" content="/images/feature.jpg" />
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://metatags.io/" />
+<meta property="twitter:title" content="Ui & UX Designer" />
+<meta property="twitter:description" content="Ui & Ux Desiginer" />
+<meta property="twitter:image" content="images/feature.jpg" />
+
+</head>
+{/* meta data */}
+
+
+
+
+
+
       {/* <main className={okta_neue.className}> */}
 
       <nav className=" animate-fade-down m-auto flex justify-between max-w-6xl  text-gray-800 p-4 md:p-2 ">
@@ -148,7 +175,7 @@ export default function Home() {
             <a
               href="https://dribbble.com/DipoUI/shots"
               target="_blank"
-              className="button-6  bg-secondary px-[16px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out "
+              className="button-6 bg-secondary px-[16px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out "
               type="button"
             >
               {" "}
