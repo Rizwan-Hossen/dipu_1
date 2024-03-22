@@ -133,9 +133,9 @@ export default function Home() {
                 style={{
                   animationDuration: "10s",
                 }}
-                className="absolute  duration-700 animate-bounce text-xs  font-medium py-2 px-2 rounded-full -right-2/3 inline-block bg-white z-10"
+                className="absolute  duration-700 animate-bounce text-xs  font-medium py-2 px-2 rounded-full right-[-65px] inline-block bg-white z-10"
               >
-                Dipo Saha 👋
+                Dipo Saha <span className="text-white">👋</span>
               </h3>
             </div>
           </div>
