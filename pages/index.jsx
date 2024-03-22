@@ -60,16 +60,16 @@ export default function Home() {
 <meta name="description" content="Ui & Ux Desiginer" />
 
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://metatags.io/" />
+<meta property="og:url" content="https://dipu-ui.vercel.app/" />
 <meta property="og:title" content="Ui & UX Designer" />
 <meta property="og:description" content="Ui & Ux Desiginer" />
-<meta property="og:image" content="/images/feature.jpg" />
+<meta property="og:image" content="https://dipu-ui.vercel.app/" />
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://metatags.io/" />
+<meta property="twitter:url" content="https://dipu-ui.vercel.app/" />
 <meta property="twitter:title" content="Ui & UX Designer" />
 <meta property="twitter:description" content="Ui & Ux Desiginer" />
-<meta property="twitter:image" content="images/feature.jpg" />
+<meta property="twitter:image" content="https://dipu-ui.vercel.app/images/feature.jpg" />
 
 </head>
 {/* meta data */}
