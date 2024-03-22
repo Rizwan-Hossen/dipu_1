@@ -131,7 +131,7 @@ export default function Home() {
             <div className="  -rotate-12 absolute top-1/2 right-0 w-full ">
               <h3
                 style={{
-                  animationDuration: "10s",
+                  animationDuration: "10s !important",
                 }}
                 className="absolute  duration-700 animate-bounce text-xs  font-medium py-2 px-2 rounded-full right-[-65px] inline-block bg-white z-10"
               >
@@ -221,12 +221,15 @@ export default function Home() {
               <div className="md:col-span-2 card  overflow-hidden flex-1 rounded-3xl w-full md:w-full h-[515px] relative after:bg-gradient-to-t after:from-gray-700 after:to-transparent after:top-0 after:w-full after:h-full after:absolute after:z-10">
                 <img className="w-full" src="/images/mask_group_1.png" alt="" />
                 <div className="text-white absolute bottom-0 pl-[17px] pb-[18px] z-20">
-                  <h4 className="font-bold pb-[10px]">UI&UX Design</h4>
+                  <h4 className="font-bold pb-[10px]">Pawhub Branding</h4>
                   <p className="pb-[10px]">
-                    Checkout our Website Design portfolio.
+                    Welcome to Pawhub, where pets reign supreme! We're all about
+                    spoiling your furry family members with top-notch care and
+                    irresistible goodies. Because here, pets aren't just pets -
+                    they're royalty!
                   </p>
                   <a
-                    href="https://dribbble.com/DipoUI/shots"
+                    href="https://dribbble.com/shots/23828948-Pawhub-Petcare-Food-Branding"
                     target="_blank"
                     className="bg-secondary inline-flex text-black items-center button-6 px-[31px] py-[16px] rounded-full font-bold  hover:shadow-2xl transition duration-150 ease-in-out"
                   >
@@ -244,19 +247,19 @@ export default function Home() {
             </div>
 
             <div className="w-full mt-5 md:w-full bg-primary hidden md:block h-[450px] justify-center rounded-3xl">
-            <marquee
-              direction="up"
-              height="100%"
-              scrollamount="15"
-              loop="infinite"
-              behavior="sliding"
-              className="h-full flex justify-center"
-            >
-              <img src="images/c1 1.png" alt="" />
-              <img src="images/c2.png" alt="" />
-              <img src="images/c3.png" alt="" />
-            </marquee>
-          </div>
+              <marquee
+                direction="up"
+                height="100%"
+                scrollamount="15"
+                loop="infinite"
+                behavior="sliding"
+                className="h-full flex justify-center"
+              >
+                <img src="images/c1 1.png" alt="" />
+                <img src="images/c2.png" alt="" />
+                <img src="images/c3.png" alt="" />
+              </marquee>
+            </div>
 
             <div className="w-full md:w-full h-[277px] bg-primary rounded-2xl mt-[20px]">
               <h4 className=" bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:text-xl font-bold  pt-[74px] pl-[20px] text-3xl">
@@ -275,10 +278,7 @@ export default function Home() {
                       alt=""
                     />
                   </span>{" "}
-                  <span className="pl-[12px]">
-                  Email me{" "}
-                  </span>
-                 
+                  <span className="pl-[12px]">Email me </span>
                 </a>
                 <span className="pl-[14px]"></span>
                 <a
@@ -299,7 +299,9 @@ export default function Home() {
           <div className="bg-primary  rounded-3xl pt-20 ">
             <div>
               <h2 className="text-black md:text-xl md:px-[10px] text-3xl font-bold text-center pb-[32px] bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent  ">
-                Collaborate with brands <br className="hidden md:block"></br> and agencies to <br className="md:hidden"></br>create<br className="hidden md:block"></br>
+                Collaborate with brands <br className="hidden md:block"></br>{" "}
+                and agencies to <br className="md:hidden"></br>create
+                <br className="hidden md:block"></br>
                 impactful results.
               </h2>
             </div>
@@ -351,7 +353,7 @@ export default function Home() {
               </section>
             </div>
             <div className=" pb-[60px]  pt-[90px] md:pl-[15px] md:flex justify-between hidden">
-              <div >
+              <div>
                 <section className="text-black w-auto h-[141px] ">
                   <img src="/images/ui.png" alt="" />
                   <h3 className="py-[5px] font-bold text-base">UI & UX</h3>
@@ -408,7 +410,8 @@ export default function Home() {
             </div>
 
             <h2 className="text-black text-center text-3xl font-bold bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:px-[40px] md:text-xl">
-              Tell me about <br className="hidden md:block"></br> your next <br className="md:hidden"></br> project
+              Tell me about <br className="hidden md:block"></br> your next{" "}
+              <br className="md:hidden"></br> project
             </h2>
             <div className=" items-center justify-center flex mx-auto pt-[50px] ">
               <a
@@ -441,44 +444,44 @@ export default function Home() {
             <h6 className="md:text-sm">© 2024 All rights reserved.</h6>
           </div>
           <div className="flex flex-auto justify-end items-center space-x-4">
-          <a
-            href="https://www.linkedin.com/in/diposaha/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-800 hover:underline"
-          >
-            <span className="md:hidden">LinkedIn</span>
-            <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
+            <a
+              href="https://www.linkedin.com/in/diposaha/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:underline"
+            >
+              <span className="md:hidden">LinkedIn</span>
+              <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
+                {" "}
+                <img src="/images/mdi_linkedin.svg" alt="" />{" "}
+              </span>
+            </a>
+            <a
+              href="https://dribbble.com/DipoUI/shots"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:underline"
+            >
               {" "}
-              <img src="/images/mdi_linkedin.svg" alt="" />{" "}
-            </span>
-          </a>
-          <a
-            href="https://dribbble.com/DipoUI/shots"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-800 hover:underline"
-          >
-            {" "}
-            <span className="md:hidden">Dribble</span>
-            <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
-              {" "}
-              <img src="/images/dribble.png" alt="" />{" "}
-            </span>
-          </a>
-          <a
-            href="https://www.instagram.com/dipoui58/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-800 hover:underline"
-          >
-            <span className="md:hidden">Instagram</span>
-            <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
-              {" "}
-              <img src="/images/instagram.png" alt="" />{" "}
-            </span>
-          </a>
-        </div>
+              <span className="md:hidden">Dribble</span>
+              <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
+                {" "}
+                <img src="/images/dribble.png" alt="" />{" "}
+              </span>
+            </a>
+            <a
+              href="https://www.instagram.com/dipoui58/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:underline"
+            >
+              <span className="md:hidden">Instagram</span>
+              <span className="hidden md:block md:bg-white md:p-[6px] md:rounded-full">
+                {" "}
+                <img src="/images/instagram.png" alt="" />{" "}
+              </span>
+            </a>
+          </div>
         </footer>
       </section>
       {/* </main> */}
