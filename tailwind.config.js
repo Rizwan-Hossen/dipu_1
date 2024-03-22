@@ -7,6 +7,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
     
       screens: {
@@ -55,5 +56,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [ require('tailwindcss-animated')
+  ],
 };

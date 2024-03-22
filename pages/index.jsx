@@ -54,7 +54,7 @@ export default function Home() {
     <>
       {/* <main className={okta_neue.className}> */}
 
-      <nav className=" m-auto flex justify-between max-w-6xl  text-gray-800 p-4 md:p-2 ">
+      <nav className=" animate-fade-down m-auto flex justify-between max-w-6xl  text-gray-800 p-4 md:p-2 ">
         <div className="flex flex-auto items-center space-x-4 ">
           <div
             className=" md:text-white md:border-0   hover:underline border-2 rounded-full md:pr-0 md:py-0 md:px-0 px-4  pr-1 py-1 border-[#D9D9D9]"
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </nav>
       <main className="container max-w-6xl  mx-auto bg-white ">
-        <section className=" m-auto md:my-0  my-9 md:rounded-none rounded-[48px] py-11 bg-primary flex justify-center items-center flex-col">
+        <section className=" animate-fade-up m-auto md:my-0  my-9 md:rounded-none rounded-[48px] py-11 bg-primary flex justify-center items-center flex-col">
           <div className=" p-1 rounded-full  relative">
             <div className="w-[120px] h-[120px] bg-secondary p-1 rounded-full overflow-hidden  border-white border-[4px] ">
               <img src="/images/dipu.png" alt="Dipo saha" />
@@ -140,7 +140,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="mt-5 md:col-6 md:w-full md:h-[156px] md:px-[16px]  bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:text-xl text-3xl font-bold mb-4 w-[600px] h-[200] text-center">
+          <h1 className="animate-fade-up mt-5 md:col-6 md:w-full md:h-[156px] md:px-[16px]  bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:text-xl text-3xl font-bold mb-4 w-[600px] h-[200] text-center">
             <span className="block">Building Digital</span> Excellence for
             Products, Brands, and Experiences
           </h1>
@@ -174,8 +174,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-background grid grid-cols-3   gap-5">
-          <div className="col-span-1 md:order-last md:hidden md:col-span-3 bg-primary w-full md:w-full h-[821px] justify-center rounded-3xl">
+        <section className="animate-flip-up animate-duration-[1500ms] bg-background grid grid-cols-3   gap-5">
+          <div className=" col-span-1 md:order-last md:hidden md:col-span-3 bg-primary w-full md:w-full h-[821px] justify-center rounded-3xl">
             <marquee
               direction="up"
               height="100%"
@@ -218,7 +218,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="md:col-span-2 card  overflow-hidden flex-1 rounded-3xl w-full md:w-full h-[515px] relative after:bg-gradient-to-t after:from-gray-700 after:to-transparent after:top-0 after:w-full after:h-full after:absolute after:z-10">
+              <div className="animate-fade-left animate-duration-[5000ms] md:col-span-2 card  overflow-hidden flex-1 rounded-3xl w-full md:w-full h-[515px] relative after:bg-gradient-to-t after:from-gray-700 after:to-transparent after:top-0 after:w-full after:h-full after:absolute after:z-10">
                 <img className="w-full" src="/images/mask_group_1.png" alt="" />
                 <div className="text-white absolute bottom-0 pl-[17px] pb-[18px] z-20">
                   <h4 className="font-bold pb-[10px]">Pawhub Branding</h4>
@@ -261,7 +261,7 @@ export default function Home() {
               </marquee>
             </div>
 
-            <div className="w-full md:w-full h-[277px] bg-primary rounded-2xl mt-[20px]">
+            <div className="w-full md:w-full md:animate-flip-up animate-duration-[6000ms] md:animate-duration-[8000ms] h-[277px] bg-primary rounded-2xl mt-[20px]">
               <h4 className=" bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:text-xl font-bold  pt-[74px] pl-[20px] text-3xl">
                 Are you ready for collaboration?
               </h4>
@@ -295,7 +295,7 @@ export default function Home() {
         </section>
 
         {/* responsive endddddddddd */}
-        <section className="container pt-[70px] bg-white">
+        <section className="animate-flip-up animate-duration-[5000ms] container pt-[70px] bg-white">
           <div className="bg-primary  rounded-3xl pt-20 ">
             <div>
               <h2 className="text-black md:text-xl md:px-[10px] text-3xl font-bold text-center pb-[32px] bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent  ">
