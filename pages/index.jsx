@@ -135,7 +135,7 @@ export default function Home() {
                 }}
                 className="absolute  duration-700 animate-bounce text-xs  font-medium py-2 px-2 rounded-full -right-2/3 inline-block bg-white z-10"
               >
-                Dipo Saha <span className="text-white">👋</span>
+                Dipo Saha 👋
               </h3>
             </div>
           </div>
