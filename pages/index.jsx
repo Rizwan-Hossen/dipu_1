@@ -282,7 +282,7 @@ export default function Home() {
                 </a>
                 <span className="pl-[14px]"></span>
                 <a
-                  href="https://wa.me/01865484147"
+                  href="https://calendly.com/dipo-ui-58/dipo-intro-call?month=2024-03"
                   target="_blank"
                   className="bg-black text-white  button-6 px-[24px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
                   type="button"
