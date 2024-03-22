@@ -184,7 +184,7 @@ export default function Home() {
               behavior="sliding"
               className="h-full flex justify-center"
             >
-              <img src="images/c1 1.png" alt="" />
+              <img src="images/c1.png" alt="" />
               <img src="images/c2.png" alt="" />
               <img src="images/c3.png" alt="" />
             </marquee>
