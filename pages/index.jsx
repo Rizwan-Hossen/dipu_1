@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "@/components/button";
 import localFont from "next/font/local";
-import { Head } from "next/document";
+import Head from 'next/head'
 
 const okta_neue = localFont({
   src: [
@@ -63,8 +63,8 @@ export default function Home() {
         <meta property="og:url" content="https://dipu-ui.vercel.app/" />
         <meta property="og:title" content="Ui & UX Designer" />
         <meta property="og:description" content="Ui & Ux Desiginer" />
-        <meta property="og:image" content="https://dipu-ui.vercel.app/" />
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content="https://dipu-ui.vercel.app/images/feature.jpg" />
+        <meta property="twitter:card" content="https://dipu-ui.vercel.app/images/feature.jpg" />
         <meta property="twitter:url" content="https://dipu-ui.vercel.app/" />
         <meta property="twitter:title" content="Ui & UX Designer" />
         <meta property="twitter:description" content="Ui & Ux Desiginer" />
