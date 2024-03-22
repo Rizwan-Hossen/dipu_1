@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "@/components/button";
 import localFont from "next/font/local";
+import { Head } from "next/document";
 
 const okta_neue = localFont({
   src: [
@@ -52,32 +53,28 @@ export default function Home() {
 
   return (
     <>
+      {/* meta data */}
 
-{/* meta data */}
-<head>
-<title>Ui & UX Designer</title>
-<meta name="title" content="Ui & UX Designer" />
-<meta name="description" content="Ui & Ux Desiginer" />
+      <Head>
+        <title>Ui &amp; UX Designer</title>
+        <meta name="title" content="Ui & UX Designer" />
+        <meta name="description" content="Ui & Ux Desiginer" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dipu-ui.vercel.app/" />
+        <meta property="og:title" content="Ui & UX Designer" />
+        <meta property="og:description" content="Ui & Ux Desiginer" />
+        <meta property="og:image" content="https://dipu-ui.vercel.app/" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://dipu-ui.vercel.app/" />
+        <meta property="twitter:title" content="Ui & UX Designer" />
+        <meta property="twitter:description" content="Ui & Ux Desiginer" />
+        <meta
+          property="twitter:image"
+          content="https://dipu-ui.vercel.app/images/feature.jpg"
+        />
+      </Head>
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://dipu-ui.vercel.app/" />
-<meta property="og:title" content="Ui & UX Designer" />
-<meta property="og:description" content="Ui & Ux Desiginer" />
-<meta property="og:image" content="https://dipu-ui.vercel.app/" />
-
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://dipu-ui.vercel.app/" />
-<meta property="twitter:title" content="Ui & UX Designer" />
-<meta property="twitter:description" content="Ui & Ux Desiginer" />
-<meta property="twitter:image" content="https://dipu-ui.vercel.app/images/feature.jpg" />
-
-</head>
-{/* meta data */}
-
-
-
-
-
+      {/* meta data */}
 
       {/* <main className={okta_neue.className}> */}
 
