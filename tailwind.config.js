@@ -8,11 +8,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '2xl': {'max': '1535px'},
+        // => @media (max-width: 1535px) { ... }
+  
+        'xl': {'max': '1279px'},
+        // => @media (max-width: 1279px) { ... }
+  
+        'lg': {'max': '1023px'},
+        // => @media (max-width: 1023px) { ... }
+  
+        'md': {'max': '767px'},
+        // => @media (max-width: 767px) { ... }
+  
+        'sm': {'max': '639px'},
+      },
       colors: {
         'text': '#050315',
         'background': '#fbfbfe',
         'primary': '#F4F6FB',
         'secondary': '#FFC420',
+        'black': '#393939',
        },
        fontSize: {
         sm: '0.750rem',
