@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </nav>
       <main className="container max-w-6xl  mx-auto bg-white ">
-        <section className=" m-auto  my-9 rounded-[48px] py-11 bg-primary flex justify-center items-center flex-col">
+        <section className=" m-auto md:my-0  my-9 md:rounded-none rounded-[48px] py-11 bg-primary flex justify-center items-center flex-col">
           <div className=" p-1 rounded-full  relative">
             <div className="w-[120px] h-[120px] bg-secondary p-1 rounded-full overflow-hidden  border-white border-[4px] ">
               <img src="/images/dipu.png" alt="Dipo saha" />
@@ -299,7 +299,7 @@ export default function Home() {
           <div className="bg-primary  rounded-3xl pt-20 ">
             <div>
               <h2 className="text-black md:text-xl md:px-[10px] text-3xl font-bold text-center pb-[32px] bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent  ">
-                Collaborate with brands and agencies to <br></br>create
+                Collaborate with brands <br className="hidden md:block"></br> and agencies to <br className="md:hidden"></br>create<br className="hidden md:block"></br>
                 impactful results.
               </h2>
             </div>
@@ -308,7 +308,7 @@ export default function Home() {
                 Service
               </button>
             </div>
-            <div className="px-[70px] pb-[60px] pt-[90px] flex justify-between md:hidden">
+            <div className="px-[70px] pb-[60px] pt-[90px] flex justify-between  md:hidden">
               <section className="text-black w-[219px] h-[141px]">
                 <img src="/images/ui.png" alt="" />
                 <h3 className="py-[5px] font-bold text-base">UI & UX</h3>
@@ -350,9 +350,9 @@ export default function Home() {
                 </p>
               </section>
             </div>
-            <div className="px-[16px] pb-[60px] pt-[90px] md:flex justify-between hidden">
-              <div>
-                <section className="text-black w-auto h-[141px]">
+            <div className=" pb-[60px]  pt-[90px] md:pl-[15px] md:flex justify-between hidden">
+              <div >
+                <section className="text-black w-auto h-[141px] ">
                   <img src="/images/ui.png" alt="" />
                   <h3 className="py-[5px] font-bold text-base">UI & UX</h3>
 
@@ -361,7 +361,7 @@ export default function Home() {
                     enjoyable to use
                   </p>
                 </section>
-                <section className="text-black w-auto h-[141px]">
+                <section className="text-black w-auto h-[141px] ">
                   <img src="/images/prime_mobile.png" alt="" />
                   <h3 className="py-[5px] font-bold text-base">
                     Web & Mobile App
@@ -373,6 +373,7 @@ export default function Home() {
                   </p>
                 </section>
               </div>
+              <span className="hidden md:px-[20px]"></span>
               <div>
                 <section className="text-black w-auto h-[141px]">
                   <img src="/images/design.png" alt="" />
@@ -406,14 +407,14 @@ export default function Home() {
               <img className=" w-full h-fit" src="/images/shake.png" alt="" />
             </div>
 
-            <h2 className="text-black text-center text-3xl font-bold bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:text-xl">
-              Tell me about your next <br></br> project
+            <h2 className="text-black text-center text-3xl font-bold bg-gradient-to-r from-[#656565]  to-[#010101] leading-tight bg-clip-text text-transparent md:px-[40px] md:text-xl">
+              Tell me about <br className="hidden md:block"></br> your next <br className="md:hidden"></br> project
             </h2>
             <div className=" items-center justify-center flex mx-auto pt-[50px] ">
               <a
                 href="mailto:Dipo.ui.58@gmail.com"
                 target="_blank"
-                className="bg-secondary  text-black items-center button-6 px-[31px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
+                className="bg-secondary  text-black items-center button-6 px-[24px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
               >
                 <span>
                   <img className="w-[23px] h-fit" src="images/sms.svg" alt="" />
@@ -424,7 +425,7 @@ export default function Home() {
               <a
                 href="https://wa.me/01865484147"
                 target="_blank"
-                className="bg-black  text-white  button-6 px-[31px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
+                className="bg-black  text-white  button-6 px-[24px] py-[16px] rounded-full font-bold flex  hover:shadow-2xl transition duration-150 ease-in-out"
                 type="button"
               >
                 What's app
