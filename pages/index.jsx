@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* meta data */}
 
-      {/* <main className={okta_neue.className}> */}
+      <main className={okta_neue.className}>
 
       <nav className=" animate-fade-down m-auto flex justify-between max-w-6xl  text-gray-800 p-4 md:p-2 ">
         <div className="flex flex-auto items-center space-x-4 ">
@@ -508,7 +508,7 @@ export default function Home() {
           </div>
         </footer>
       </section>
-      {/* </main> */}
+      </main>
     </>
   );
 }
