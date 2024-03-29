@@ -1,3 +1,6 @@
+//  devloped by Rizwan Hossen ft Code Thousand 
+// for contact: https://www.codethousand.net/
+
 import { useState } from "react";
 import Button from "@/components/button";
 import localFont from "next/font/local";
